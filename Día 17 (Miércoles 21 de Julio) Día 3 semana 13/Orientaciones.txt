@@ -1,0 +1,8 @@
+﻿Añadir los imports al inicio de la clase:
+import android.content.pm.ActivityInfo;
+import android.view.WindowManager;
+
+Orientación Vertical: setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+Orientación Horizontal: setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+
+Pantalla completa: this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
